@@ -30,6 +30,10 @@ body {
   text-transform: uppercase;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 p {
   padding: 0;
   margin: 0;
@@ -125,4 +129,35 @@ dl dt {
 dl dd {
   margin-bottom: 10px;
   color: var(--font-sub-color);
+}
+
+
+@media only screen and (max-width: 720px) {
+  .mobile-nav {
+    display: block;
+  }
+
+  .mobile-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .content {
+    border-left: none;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
 }
