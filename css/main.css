@@ -109,4 +109,25 @@ ul {
   font-weight: 400;
 }
 
-.footer {}
+.footer {
+  background-color: var(--color-primary);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  column-gap: 2rem;
+}
+
+.footer__stack {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.footer__stack__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
