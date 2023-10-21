@@ -7,7 +7,7 @@ html {
   --color-primary: #2584ff;
   --color-primary-hover: #0c76ff;
   --color-border: #a49f9f;
-  --font-color: #555f6d;
+  --font-sub-color: #555f6d;
 }
 
 *,
@@ -116,4 +116,13 @@ ul {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+dl dt {
+  font-size: 1.7rem;
+}
+
+dl dd {
+  margin-bottom: 10px;
+  color: var(--font-sub-color);
 }
