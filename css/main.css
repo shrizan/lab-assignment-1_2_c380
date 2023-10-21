@@ -113,7 +113,7 @@ ul {
   background-color: var(--color-primary);
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
   column-gap: 2rem;
 }
